@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{07C2787E-EAC7-C090-1BA3-A61EC2A24D84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "revit", "revit", "{980520A8-9C80-B14B-B69D-24824633BC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoRegretHome.Revit", "tools\revit\NoRegretHome.Revit.csproj", "{160F9863-8F5C-6E6B-E737-378DE7AFA351}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{160F9863-8F5C-6E6B-E737-378DE7AFA351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160F9863-8F5C-6E6B-E737-378DE7AFA351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160F9863-8F5C-6E6B-E737-378DE7AFA351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160F9863-8F5C-6E6B-E737-378DE7AFA351}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{980520A8-9C80-B14B-B69D-24824633BC95} = {07C2787E-EAC7-C090-1BA3-A61EC2A24D84}
+		{160F9863-8F5C-6E6B-E737-378DE7AFA351} = {980520A8-9C80-B14B-B69D-24824633BC95}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F820D0F-8667-4D63-8652-E8F6D6CFFAE2}
+	EndGlobalSection
+EndGlobal

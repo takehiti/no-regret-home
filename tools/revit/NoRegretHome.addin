@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>フェンス視線チェック</Name>
+    <FullClassName>NoRegretHome.Revit.Commands.FenceCheckCommand</FullClassName>
+    <Text>フェンス視線チェック</Text>
+    <Description>フェンスで視線を遮れるかチェックします</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Assembly>NoRegretHome.Revit.dll</Assembly>
+    <VendorId>NoRegretHome</VendorId>
+    <VendorDescription>No Regret Home Project</VendorDescription>
+  </AddIn>
+</RevitAddIns>

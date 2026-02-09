@@ -1,0 +1,36 @@
+{
+  "name": "no-regret-home",
+  "version": "0.1.0",
+  "description": "後悔しない家づくりを実現するための判定・可視化ツール",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist",
+    "demo": "ts-node examples/fence-visibility/run-demo.ts"
+  },
+  "keywords": [
+    "architecture",
+    "building",
+    "visualization",
+    "sightline",
+    "fence"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}
